@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+    <title>Vowel to Word</title>
    <style>
 
    a{
@@ -141,7 +143,7 @@ body {
   <div id="fullimage">
     <a href="#"><label id="start_test"><img  src="static/start-test-button.svg" /></label></a>
     <figure class="fullimage">
-        <img src="static/Ba.png">
+        <img src="static/Ba.png" class="pic" id="baa">
         <figcaption>BAA</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Ba.mp3" type="audio/mpeg">
@@ -149,7 +151,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Bay.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Bay.png" class="pic" id="bay">
         <figcaption>BAY</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Bay.mp3" type="audio/mpeg">
@@ -157,7 +159,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Bee.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Bee.png"class="pic" id="bee">
         <figcaption>BEE</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Bee.mp3" type="audio/mpeg">
@@ -165,7 +167,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Boo.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Boo.png" class="pic" id="boo">
         <figcaption>BOO</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Boo.mp3" type="audio/mpeg">
@@ -173,7 +175,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Bow.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Bow.png" class="pic" id="bow">
         <figcaption>BOW</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Bow.mp3" type="audio/mpeg">
@@ -181,7 +183,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Ha.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Ha.png" class="pic" id="ha">
         <figcaption>HA</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Ha.mp3" type="audio/mpeg">
@@ -189,7 +191,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Hay.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Hay.png" class="pic" id="hay">
         <figcaption>HAY</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Hay.mp3" type="audio/mpeg">
@@ -197,7 +199,7 @@ body {
         </audio>
       </figure>
        <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/He.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/He.png" class="pic" id="he">
         <figcaption>HE</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/He.mp3" type="audio/mpeg">
@@ -205,7 +207,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Ho.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Ho.png" class="pic" id="ho">
         <figcaption>HO</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Ho.mp3" type="audio/mpeg">
@@ -213,7 +215,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Ma.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Ma.png" class="pic" id="ma">
         <figcaption>MA</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Ma.mp3" type="audio/mpeg">
@@ -221,7 +223,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/May.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/May.png" class="pic" id="may">
         <figcaption>MAY</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/May.mp3" type="audio/mpeg">
@@ -229,7 +231,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Me.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Me.png" class="pic" id="me">
         <figcaption>ME</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Me.mp3" type="audio/mpeg">
@@ -237,7 +239,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Mo.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Mo.png" class="pic" id="mo">
         <figcaption>MO</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Mo.mp3" type="audio/mpeg">
@@ -245,7 +247,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Moo.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Moo.png" class="pic" id="moo">
         <figcaption>MOO</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Moo.mp3" type="audio/mpeg">
@@ -253,7 +255,7 @@ body {
         </audio>
       </figure>
       <figure class="fullimage">
-        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Who.png">
+        &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<img src="static/Who.png" class="pic" id="who">
         <figcaption>WHO</figcaption><br><br>
           <audio controls>
         <source src="audio/lessons/voweltoword/Who.mp3" type="audio/mpeg">
@@ -292,6 +294,8 @@ body {
 
 <script>
 
+
+
     $('#fullimage fullimage:first-child').fadeIn();
 
 var curr = $('#fullimage fullimage:first-child');
@@ -328,11 +332,14 @@ var cross_counter=0;
 var dnd_counter=0;
 var disengaged_counter=0;
 
+var attempt=[];
+
 $('#tick').each( function(){
 
   $( this ).click( function(){
     tick_counter++;
     console.log("tick=", tick_counter);
+    attempt.push("tick");
   } );
 } )
 
@@ -341,6 +348,7 @@ $('#cross').each( function(){
   $( this ).click( function(){
     cross_counter++;
     console.log("cross=", cross_counter);
+    attempt.push("cross");
   } );
 } )
 
@@ -349,6 +357,7 @@ $('#dnd').each( function(){
   $( this ).click( function(){
     dnd_counter++;
     console.log("dnd=", dnd_counter);
+    attempt.push("dnd");
   } );
 } )
 var date=0;
@@ -386,8 +395,10 @@ function millisToMinutesAndSeconds(millis) {
   return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
 }
 
-const element1 = document.getElementById('prev')
-const element2 = document.getElementById('next')
+x=new Date().toLocaleString();
+
+const element1 = document.getElementById('prev');
+const element2 = document.getElementById('next');
 
 
 element1.addEventListener("click", () => {
@@ -398,18 +409,32 @@ myArray.push({'question end time':myDate});
 
 });
 
-element2.addEventListener("click", () => {
-        myArray=[];
 
-myArray.push({'tick':tick_counter, 'cross': cross_counter, 'dnd': dnd_counter});
-myArray.push({'question time':date});
-myArray.push({'disengaged time':diseng});
+
+
+element2.addEventListener("click", () => {
+$('.pic').each(function() {
+  console.log('qid:', this.id );
+  var qid=this.id;
+
+
+myArray=[];
+myArray.start= x;
+myArray.attempts=attempt;
+myArray.tick=tick_counter;
+myArray.cross=cross_counter;
+myArray.dnd=dnd_counter;
+myArray.question_time=date;
+myArray.disengaged_time=diseng;
 console.log('array', myArray);
 	tick_counter=0;
 	cross_counter=0;
     dnd_counter=0;
 
 });
+});
+
+
 
 function diseng_change()
 {
@@ -438,25 +463,6 @@ var myDate = new Date().toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");
 
 
 
-<!-- let startTime = null;-->
-
-<!--const button = document.querySelector("#disengaged");-->
-<!--button.addEventListener("click", startStop);-->
-<!--const output = document.querySelector("#output");-->
-
-<!--function startStop() {-->
-<!--  if (startTime) {-->
-<!--    var disengaged_time = myDate;-->
-<!--    var difference = endTime - startTime;-->
-<!--&lt;!&ndash;    output.innerText = 'Reaction time: ' + difference + ' ms';&ndash;&gt;-->
-<!--    startTime = null;-->
-<!--    button.innerText = "Disengaged";-->
-<!--  } else {-->
-<!--    startTime = myDate;-->
-<!--    button.innerText = "Engaged";-->
-<!--    output.innerText = "";-->
-<!--  }-->
-<!--}-->
 function end() {
 
 var dict =  {};
@@ -474,7 +480,10 @@ console.log("json", dict);
 
 
 
+
 </script>
 
 </body>
 </html>
+
+
