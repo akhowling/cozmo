@@ -93,6 +93,7 @@ body {
     <option value="1">Latha</option>
     <option value="2" >Anitha</option>
     <option value="3">Kavitha</option>
+
   </select>
 </form>
 </div>
@@ -109,6 +110,25 @@ body {
     <option value="3">Lakshya</option>
     <option value="4" >Karthik</option>
     <option value="5">Balaji</option>
+    <option value="5">Shamith</option>
+    <option value="6">Rahul</option>
+    <option value="7">Brijesh</option>
+    <option value="8">Varun</option>
+    <option value="9">Suvith</option>
+    <option value="10">Shivamadhu</option>
+    <option value="11">Samarth</option>
+    <option value="12">Sumeghana</option>
+    <option value="13">Rithvik</option>
+    <option value="14">Deepika</option>
+    <option value="15">Ghanshyam</option>
+    <option value="16">Moulya</option>
+    <option value="17">Guhan</option>
+    <option value="18">Vansh</option>
+    <option value="19">Ayush</option>
+    <option value="20">Atharva</option>
+    <option value="21">Vinayaka</option>
+    <option value="22">Achinthya</option>
+    <option value="23">Shashreek</option>
   </select>
 </form>
 </div>
@@ -122,6 +142,7 @@ body {
      <option selected="selected">Select test type</option>
     <option value="1">Vowel to Word</option>
     <option value="2" >Word to Phrase</option>
+    <option value="3" >Conversation</option>
   </select>
 </form>
 </div>
@@ -135,46 +156,48 @@ body {
 
 <!--<button type="button" onclick="document.location='voweltoword.html'; start_time()" class="startbtn">START</button>-->
 
-<!--<script>-->
+<script>
 
-<!--var myDate = new Date().toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");-->
-<!--const x=new Date().toLocaleString();-->
-
-
-<!--var e;-->
-<!--var f;-->
-<!--var g;-->
-<!--var teacher_text;-->
-<!--var student_text;-->
-<!--var test_text;-->
-<!-- const element1 = document.getElementById('btn');-->
-<!-- element1.addEventListener("click", () => {-->
-<!--        myArray=[];-->
-
-<!--var e = document.getElementById("teacher");-->
-<!--var f = document.getElementById("student");-->
-<!--var g = document.getElementById("test");-->
-<!--var teacher_text = e.options[e.selectedIndex].text;-->
-<!--var student_text = f.options[f.selectedIndex].text;-->
-<!--var test_text = g.options[g.selectedIndex].text;-->
-<!--myArray.start_time=x;-->
-<!--myArray.teacher=teacher_text;-->
-<!--myArray.student=student_text;-->
-<!--myArray.test=test_text;-->
-<!--&lt;!&ndash;date&ndash;&gt;-->
-<!--console.log("array", myArray);-->
-<!--if (test_text == 'Vowel to Word') {-->
-<!--  window.location.href ="voweltoword.html";-->
-<!--}else if (test_text == 'Word to Phrase') {-->
-<!--  window.location.href ="https://www.geeksforgeeks.org/";-->
-<!--} else {-->
-<!--   alert("Please select a valid option");-->
-<!--}-->
+var myDate = new Date().toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");
+const x=new Date().toLocaleString();
 
 
-<!--});-->
+var e;
+var f;
+var g;
+var teacher_text;
+var student_text;
+var test_text;
+ const element1 = document.getElementById('btn');
+ element1.addEventListener("click", () => {
+        myArray=[];
 
-<!--</script>-->
+var e = document.getElementById("teacher");
+var f = document.getElementById("student");
+var g = document.getElementById("test");
+var teacher_text = e.options[e.selectedIndex].text;
+var student_text = f.options[f.selectedIndex].text;
+var test_text = g.options[g.selectedIndex].text;
+myArray.start_time=x;
+myArray.teacher=teacher_text;
+myArray.student=student_text;
+myArray.test=test_text;
+<!--date-->
+console.log("array", myArray);
+if (test_text == 'Vowel to Word') {
+  window.location.href ="voweltoword.html";
+}else if (test_text == 'Word to Phrase') {
+  window.location.href ="wordtophrase";
+}else if (test_text == 'Conversation') {
+  window.location.href ="conversation";
+} else {
+   alert("Please select a valid option");
+}
+
+
+});
+
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="{{url_for('static', filename='javascript.js')}}"></script>
 </body>
