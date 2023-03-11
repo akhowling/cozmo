@@ -286,3 +286,21 @@ console.log("json", dict);
 //    }
 //
 //}
+
+//CONVO
+
+const submit = document.getElementById('submit');
+function getForm(event){
+//    e.preventDefault();
+    var number= document.getElementById("number").value;
+    console.log("number",number);
+    for (i=0;i<number;i++){
+//        document.querySelector(submit).addEventListener("click", () => {
+//        document.querySelector(element2).click();
+        element2.click();
+        console.log("click");
+//    });
+    }
+}
+getForm();
+
